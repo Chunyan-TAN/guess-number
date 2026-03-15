@@ -7,5 +7,5 @@ while guess != number:
         print("Too small!!!")
     elif guess > number:
         print("Too big!!!")
-    else
-    print("you are right!!!")
+    else:
+        print("you are right!!!")
