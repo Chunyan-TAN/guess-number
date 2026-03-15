@@ -3,4 +3,6 @@ number = random.randint(1, 100)
 guess = 0
 while guess != number:
     guess = int(input("enter a nuumber(1-100)："))
+    if guess < number:
+        print("Too small!!!")
     
